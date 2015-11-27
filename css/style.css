@@ -23,11 +23,11 @@ main	{
 }
 /* Media Queries */
 @media all and (min-width: 320px) {
-    .intro	{ 
+    #intro	{ 
         width: 100%;
         display: inline-block;
     }
-    .jobs	{
+    #jobs	{
     	width: 100%;
         display: inline-block;
     }
