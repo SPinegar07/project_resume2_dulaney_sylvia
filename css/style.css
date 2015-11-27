@@ -3,9 +3,16 @@
     padding: 0;
     border: 0;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+article, figcaption, figure, footer, header, menu, section { 
+    display: block;
+}
 main	{
-	padding: 15px 15px 15px 15px;
-	background-color: "#ffffff";
+	margin: 15px 15px 15px 15px;
+	background-color: #ffffff;
+    padding: 15px 15px 15px 15px;
 }
 .float-left	{
 	float: left;
@@ -13,4 +20,30 @@ main	{
 }
 .float-right	{
 	float: right;
+}
+/* Media Queries */
+@media all and (min-width: 320px) {
+    .intro	{ 
+        width: 100%;
+        display: inline-block;
+    }
+    .jobs	{
+    	width: 100%;
+        display: inline-block;
+    }
+}
+@media all and (min-width: 480px) {
+    #intro	{
+        width: calc(100%/2;
+        float: left;
+        background-color: #d52b1e;
+    }
+    #jobs	{
+        width: calc(100%/2);
+        float: right;
+    }
+    .img-left	{
+    	float: left;
+    	padding-right: 10px;
+    }
 }
