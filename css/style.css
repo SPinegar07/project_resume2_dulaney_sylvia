@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main	{
+	padding: 15px 15px 15px 15px;
+	background-color: "#ffffff";
+}
+.float-left	{
+	float: left;
+	margin-right: 10px;
+}
+.float-right	{
+	float: right;
+}
