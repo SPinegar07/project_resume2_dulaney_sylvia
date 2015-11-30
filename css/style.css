@@ -6,7 +6,7 @@
 *, *:before, *:after {
     box-sizing: inherit;
 }
-article, figcaption, figure, footer, header, menu, section { 
+article, figcaption, figure, footer, header, menu, section {
     display: block;
 }
 main	{
@@ -34,7 +34,7 @@ main	{
 }
 @media all and (min-width: 480px) {
     #intro	{
-        width: calc(100%/2;
+        width: calc(100%/2);
         float: left;
         background-color: #d52b1e;
     }
