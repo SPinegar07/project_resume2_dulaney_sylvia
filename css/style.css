@@ -11,7 +11,6 @@ article, figcaption, figure, footer, header, menu, section {
 }
 main	{
 	margin: 15px 15px 15px 15px;
-	background-color: #ffffff;
     padding: 15px 15px 15px 15px;
 }
 .float-left	{
@@ -21,26 +20,33 @@ main	{
 .float-right	{
 	float: right;
 }
+
+ul li   {
+    margin-left: 15px;
+}
 /* Media Queries */
 @media all and (min-width: 320px) {
     #intro	{ 
         width: 100%;
         display: inline-block;
+        background-color: #e5ffff;
     }
     #jobs	{
     	width: 100%;
         display: inline-block;
+        background-color: #e5ffff;
     }
 }
 @media all and (min-width: 480px) {
     #intro	{
         width: calc(100%/2);
         float: left;
-        background-color: #d52b1e;
+        background-color: #e5ffff;
     }
     #jobs	{
         width: calc(100%/2);
         float: right;
+        background-color: #e5e5ff;
     }
     .img-left	{
     	float: left;
