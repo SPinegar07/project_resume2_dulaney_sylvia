@@ -11,7 +11,9 @@
     <main>
       <article>
         <section id="intro">
-         <img src="images/main.jpg" alt="ADDY winner photo" width="250px" class="img-left"/>
+         <img src="images/main.jpg" alt="ADDY winner photo" width="250px" class="img-left"/>  
+         <a onclick="$('#intro').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><button type="button">Learn About Me</button></a>
+         <a onclick="$('#jobs').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});"><button type="button">See My Job History</button></a>
         <h1>Sylvia Pinegar</h1>
           <h2>Digital Media Specialist</h2>
             <p><b>Education:</b> University of Southern Mississippi; Tulane University; University of Florida</p>
@@ -33,5 +35,7 @@
       </article>
     </main>
      <script src="script.js"></script>
+     <script src="js/jquery-2.1.4.js"></script>
+     <script src="js/animatescroll.js-master/animatescroll.js">
   </body>
 </html>
