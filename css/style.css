@@ -10,8 +10,7 @@ article, figcaption, figure, footer, header, menu, section {
     display: block;
 }
 main	{
-	margin: 15px 15px 15px 15px;
-    padding: 15px 15px 15px 15px;
+	margin: 5px 5px 5px 5px;
 }
 .float-left	{
 	float: left;
@@ -20,10 +19,16 @@ main	{
 .float-right	{
 	float: right;
 }
-
 ul li   {
     margin-left: 25px;
     padding-left: 10px;
+}
+#jobs   {
+    padding: 5px;
+}
+#title   {
+    font-family: 'Alegreya', serif;
+    color: #75509b;
 }
 /* Media Queries */
 @media all and (min-width: 320px) {
@@ -40,7 +45,7 @@ ul li   {
 }
 @media all and (min-width: 480px) {
     #intro	{
-        width: 75%;
+        width: 73%;
         float: left;
         background-color: #e5ffff;
     }
